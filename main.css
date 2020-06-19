@@ -160,7 +160,7 @@ main {
 }
 
 .title a {
-  margin-top: 0.2em 0;
+  margin-top: 0.2em;
 }
 
 .author {
@@ -204,7 +204,7 @@ main {
 
 .description-link {
   color: #000;
-  font: normal normal 700 14px/18px "ARS Maquette", Arial, sans-serif;
+  font: normal normal 700 14px/18px;
 }
 
 .description {
@@ -218,7 +218,7 @@ main {
 
 .latest-funding-header-option {
   margin-bottom: 10px;
-  font: normal normal normal 14px/18px "ARS Maquette", Arial, sans-serif;
+  font: normal normal normal 14px/18px;
 }
 
 .latest-funding-item {
@@ -245,7 +245,7 @@ main {
   background: #f42;
   color: #fff;
   padding: 10px 0 10px 84px;
-  font: normal normal bold 18px/1.25 "ARS Maquette", Arial, sans-serif;
+  font: normal normal bold 18px/1.25;
 }
 
 .latest-funding-stats {
@@ -254,11 +254,11 @@ main {
 }
 
 .latest-funding-stats h4 {
-  font: normal normal bold 18px/22.5px "ARS Maquette", Arial, sans-serif;
+  font: normal normal bold 18px/22.5px;
 }
 
 .latest-funding-stats h5 {
-  font: normal normal 500 11px/16.5px Shentox, sans-serif;
+  font: normal normal 500 11px/16.5px;
 }
 
 .funding-item-center-content {
@@ -277,7 +277,7 @@ main {
 
 .funding-item-list1 a,
 .funding-item-list2 a {
-  font: normal normal normal 13px/22px "ARS Maquette", Arial, sans-serif;
+  font: normal normal normal 13px/22px;
   padding-left: 10px;
   color: gray;
 }
@@ -303,7 +303,6 @@ main {
   position: relative;
   top: 45vh;
   left: 2vw;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
 
 .most-popular-main-image-content h5 {
@@ -324,7 +323,7 @@ main {
 }
 
 .most-popular-latest div h6 {
-  font: normal normal 500 13px/19.5px Shentox, sans-serif;
+  font: normal normal 500 13px/19.5px;
   color: #f42;
 }
 
@@ -334,7 +333,7 @@ main {
 }
 
 .most-popular-latest div a {
-  font: normal normal bold 14px/17.5px "ARS Maquette", Arial, sans-serif;
+  font: normal normal bold 14px/17.5px;
   color: #f42;
 }
 
@@ -355,7 +354,7 @@ main {
 
 .most-popular-news li a {
   color: black;
-  font: normal normal normal 13px/19.5px "ARS Maquette", Arial, sans-serif;
+  font: normal normal normal 13px/19.5px;
 }
 
 .latest-deal-header {
@@ -432,7 +431,6 @@ main {
 
 .price {
   margin-top: 0.5em;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .old-price {
@@ -445,10 +443,17 @@ main {
   color: #555;
 }
 
+.marquette-font {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+}
+
+.shentox-font {
+  font-family: Shentox, sans-serif;
+}
+
 footer {
   margin-top: 3em;
   text-align: center;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .footer-links {
@@ -490,7 +495,6 @@ footer {
 
 .footer-nav li a {
   text-transform: uppercase;
-  font-family: Shentox, sans-serif;
   color: #aaa;
   font-size: 13px;
 }
@@ -629,7 +633,6 @@ footer {
 
   .bottom-nav li a {
     text-transform: uppercase;
-    font-family: Shentox, sans-serif;
   }
 
   .yellow-banner {
@@ -737,7 +740,6 @@ footer {
   }
 
   .discount h5 {
-    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
     font-size: 14px;
     color: #000;
     position: absolute;
@@ -791,27 +793,18 @@ footer {
   }
 
   .content {
-    bottom: 1em;
+    bottom: -7em;
     width: 86%;
   }
 
-  .content .category,
-  .content .title {
+  .article-container {
     position: relative;
-    bottom: -2em;
+    bottom: -5em;
   }
 
   .content .title a {
     font-size: 56px;
     line-height: 56px;
-  }
-
-  .author {
-    position: relative;
-  }
-
-  .content .author {
-    bottom: -7em;
   }
 
   .small-2 .author {
@@ -879,7 +872,6 @@ footer {
   }
 
   .timer {
-    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
     font-size: 14px;
     color: red;
   }
