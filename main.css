@@ -49,7 +49,6 @@ nav {
 }
 
 .logo {
-  background-color: #f42;
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   width: 100px;
   padding: 0.8em;
@@ -85,7 +84,7 @@ nav {
 .hamburger {
   color: #f42;
   border-left: 1px solid #ccc;
-  padding: 12px .7em;
+  padding: 12px 0.7em;
 }
 
 .yellow-banner {
@@ -118,7 +117,8 @@ main {
 
 .big-hero-banner {
   grid-area: big;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
     url("./assests/letters.jpg");
   background-position: 50% 50%;
   padding: 1em;
@@ -127,7 +127,8 @@ main {
 .small-1 {
   grid-area: small-1;
   padding: 4em 1em 1em;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
     url("./assests/bg-grad.jpg");
   background-size: cover;
   background-position: 50% 50%;
@@ -137,7 +138,8 @@ main {
   grid-area: small-2;
   padding: 1em;
   background-color: green;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
     url("./assests/lyft.png");
   background-position: 50% 37%;
 }
@@ -178,7 +180,6 @@ main {
 .latest-funding-title,
 .most-popular-title {
   margin: 15px 0;
-  font-size: 28px;
   font: normal normal 700 28px/30.8px Avalon, sans-serif;
 }
 
@@ -200,10 +201,10 @@ main {
   margin-right: 10px;
   padding-top: 5px;
 }
+
 .description-link {
   color: #000;
-  font: normal normal 700 14px/18px "ARS Maquette", "Helvetica Neue", Arial,
-    sans-serif;
+  font: normal normal 700 14px/18px "ARS Maquette", Arial, sans-serif;
 }
 
 .description {
@@ -217,8 +218,7 @@ main {
 
 .latest-funding-header-option {
   margin-bottom: 10px;
-  font: normal normal normal 14px/18px "ARS Maquette", "Helvetica Neue", Arial,
-    sans-serif;
+  font: normal normal normal 14px/18px "ARS Maquette", Arial, sans-serif;
 }
 
 .latest-funding-item {
@@ -245,8 +245,7 @@ main {
   background: #f42;
   color: #fff;
   padding: 10px 0 10px 84px;
-  font: normal normal bold 18px/1.25 "ARS Maquette", "Helvetica Neue", Arial,
-    sans-serif;
+  font: normal normal bold 18px/1.25 "ARS Maquette", Arial, sans-serif;
 }
 
 .latest-funding-stats {
@@ -255,8 +254,7 @@ main {
 }
 
 .latest-funding-stats h4 {
-  font: normal normal bold 18px/22.5px "ARS Maquette", "Helvetica Neue", Arial,
-    sans-serif;
+  font: normal normal bold 18px/22.5px "ARS Maquette", Arial, sans-serif;
 }
 
 .latest-funding-stats h5 {
@@ -270,6 +268,7 @@ main {
 .funding-item-list1 {
   padding-top: 15px;
 }
+
 .funding-item-list1,
 .funding-item-list2 {
   padding-bottom: 15px;
@@ -278,8 +277,7 @@ main {
 
 .funding-item-list1 a,
 .funding-item-list2 a {
-  font: normal normal normal 13px/22px "ARS Maquette", "Helvetica Neue", Arial,
-    sans-serif;
+  font: normal normal normal 13px/22px "ARS Maquette", Arial, sans-serif;
   padding-left: 10px;
   color: gray;
 }
@@ -294,7 +292,8 @@ main {
 
 .most-popular-main-image {
   height: 60vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Google-Meet-796x417.jpg");
   background-position: 50% 50%;
   background-size: cover;
@@ -328,15 +327,15 @@ main {
   font: normal normal 500 13px/19.5px Shentox, sans-serif;
   color: #f42;
 }
-.most-popular-latest div a {
-  font: normal normal bold 14px/17.5px "ARS Maquette", "Helvetica Neue", Arial,
-    sans-serif;
-  color: #f42;
-}
 
 .most-popular-latest > a {
   margin-top: 0.2em;
   width: 15em;
+}
+
+.most-popular-latest div a {
+  font: normal normal bold 14px/17.5px "ARS Maquette", Arial, sans-serif;
+  color: #f42;
 }
 
 .most-popular-latest > a img {
@@ -353,10 +352,10 @@ main {
   padding: 0.5em 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
+
 .most-popular-news li a {
   color: black;
-  font: normal normal normal 13px/19.5px "ARS Maquette", "Helvetica Neue", Arial,
-    sans-serif;
+  font: normal normal normal 13px/19.5px "ARS Maquette", Arial, sans-serif;
 }
 
 .latest-deal-header {
@@ -383,7 +382,6 @@ main {
   background: url("./assests/latest.jpg") no-repeat;
   background-size: cover;
   background-position: 0 100%;
-
 }
 
 #latest-2 {
@@ -522,12 +520,11 @@ footer {
 }
 
 #copyright {
-
   padding-left: 5px;
 }
 
 #made-location {
-  margin: .3em;
+  margin: 0.3em;
 }
 
 #love-icon {
@@ -551,10 +548,6 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  .yellow-banner {
-    padding: 0.4em 0.7em;
-  }
-
   .top-nav,
   .tab-menu-links {
     display: flex;
@@ -602,6 +595,11 @@ footer {
     color: #aaa;
   }
 
+  .most-popular-latest > a {
+    margin-top: 0.2em;
+    width: 15em;
+  }
+
   .top-nav li a {
     font-size: 1em;
   }
@@ -636,6 +634,7 @@ footer {
 
   .yellow-banner {
     height: 30px;
+    padding: 0.4em 0.7em;
   }
 
   main {
@@ -674,6 +673,7 @@ footer {
   .latest-funding-heading ul {
     display: flex;
   }
+
   .latest-funding-header-option {
     border-right: 1px solid #f42;
     padding: 0 1em;
@@ -712,12 +712,7 @@ footer {
   }
 
   .most-popular-latest div {
-    padding: .5em 0.5em .5em 10px;
-  }
-  
-  .most-popular-latest > a {
-    margin-top: 0.2em;
-    width: 15em;
+    padding: 0.5em 0.5em 0.5em 10px;
   }
 
   .latest-deals-ul {
@@ -775,11 +770,8 @@ footer {
 
   .big-hero-banner {
     grid-area: big;
-    background-image: linear-gradient(
-        161deg,
-        rgba(255, 50, 14, 0.9),
-        rgba(0, 0, 0.8)
-      ),
+    background-image:
+      linear-gradient(161deg, rgba(255, 50, 14, 0.9), rgba(0, 0, 0, 0.8)),
       url("./assests/letters.jpg");
     background-position: 50% 50%;
     padding: 1em;
@@ -804,7 +796,7 @@ footer {
   }
 
   .content .category,
-  .content .title{
+  .content .title {
     position: relative;
     bottom: -2em;
   }
@@ -830,6 +822,7 @@ footer {
     display: flex;
     align-items: center;
   }
+
   .latest-funding-title {
     margin-bottom: 30px;
   }
