@@ -12,7 +12,8 @@ Building THE NEXT WEB with responsive design
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/somoye123/Responsive-Design/5b554a744499acb557ff66edab3951b4e7c4fdcb/index.html)
+[Live Demo Link](https://rawcdn.githack.com/somoye123/Responsive-Design/5b554a744499acb557ff66edab3951b4e7c4fdcb/index.html
+)
 
 ## Authors
 
