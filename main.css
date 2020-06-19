@@ -63,8 +63,9 @@ nav {
 }
 
 .mobile-menu {
-  align-self: center;
-  width: 105px;
+  align-self: stretch;
+  justify-content: start;
+  width: 110px;
   font-size: 1.5em;
 }
 
@@ -76,15 +77,15 @@ nav {
   color: #aaa;
   transform: rotateY(180deg);
   border-right: 1px solid #ccc;
-  padding-right: 0.5em;
-  margin-right: 0.4em;
+  padding: 15px 1em;
+  margin-left: 0.4em;
+  font-size: 16px;
 }
 
 .hamburger {
   color: #f42;
   border-left: 1px solid #ccc;
-  padding-left: 0.5em;
-  margin-left: 0.4em;
+  padding: 12px .7em;
 }
 
 .yellow-banner {
@@ -204,9 +205,11 @@ main {
   font: normal normal 700 14px/18px "ARS Maquette", "Helvetica Neue", Arial,
     sans-serif;
 }
+
 .description {
   margin-top: 0.5em;
 }
+
 .description,
 .description-link1 {
   color: #9d9d9d;
@@ -318,7 +321,7 @@ main {
 }
 
 .most-popular-latest div {
-  padding: 10px 0.5em 2em 10px;
+  padding: 10px 0.5em 1.5em 10px;
 }
 
 .most-popular-latest div h6 {
@@ -333,7 +336,7 @@ main {
 
 .most-popular-latest > a {
   margin-top: 0.2em;
-  width: 10em;
+  width: 15em;
 }
 
 .most-popular-latest > a img {
@@ -354,6 +357,197 @@ main {
   color: black;
   font: normal normal normal 13px/19.5px "ARS Maquette", "Helvetica Neue", Arial,
     sans-serif;
+}
+
+.latest-deal-header {
+  align-items: center;
+}
+
+#all-deals {
+  color: #f42;
+  margin-right: 10px;
+}
+
+.bg-img {
+  width: 75px;
+  padding-top: 75px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.news-info {
+  width: 80%;
+}
+
+#latest-1 {
+  background: url("./assests/latest.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+
+}
+
+#latest-2 {
+  background: url("./assests/latest-2.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+}
+
+#latest-3 {
+  background: url("./assests/latest-3.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+}
+
+#latest-4 {
+  background: url("./assests/latest-4.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+}
+
+#latest-5 {
+  background: url("./assests/latest-5.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+}
+
+#latest-6 {
+  background: url("./assests/latest-6.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+}
+
+#latest-7 {
+  background: url("./assests/latest-7.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+}
+
+#latest-8 {
+  background: url("./assests/latest-8.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+}
+
+.discount {
+  display: none;
+}
+
+.price {
+  margin-top: 0.5em;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.old-price {
+  font-size: 12px;
+  color: #999;
+}
+
+.new-price {
+  font-size: 14px;
+  color: #555;
+}
+
+footer {
+  margin-top: 3em;
+  text-align: center;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.footer-links {
+  background-color: #131313;
+  padding: 2.2em 0;
+}
+
+.footer-ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 74%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.social-links {
+  padding: 1.6em 0;
+}
+
+.social-links li {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  padding: 12px 0 5px;
+  margin: 4px;
+}
+
+.social-links li a i {
+  background-color: transparent;
+  color: #fff;
+  width: 16px;
+  height: 16px;
+}
+
+.footer-nav li {
+  margin: 5px;
+}
+
+.footer-nav li a {
+  text-transform: uppercase;
+  font-family: Shentox, sans-serif;
+  color: #aaa;
+  font-size: 13px;
+}
+
+#mid-size-icon {
+  display: none;
+}
+
+.legal {
+  background-color: #000;
+  color: #aaa;
+  font-size: 13px;
+  padding: 2.85em 0;
+}
+
+.copyright-logo {
+  justify-content: center;
+}
+
+.footer-logo {
+  width: 37px;
+  height: auto;
+}
+
+.footer-logo a img {
+  height: 100%;
+}
+
+#copyright {
+
+  padding-left: 5px;
+}
+
+#made-location {
+  margin: .3em;
+}
+
+#love-icon {
+  color: #f42;
+}
+
+#powered-by {
+  justify-content: center;
+}
+
+#stackpath {
+  width: 65px;
+  height: auto;
+  padding-left: 2px;
+}
+
+@media screen and (min-width: 321px) {
+  #mid-size-icon {
+    display: inline;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -422,7 +616,13 @@ main {
 
   .bottom-nav {
     grid-area: bottom-nav;
-    padding: 1.2em 0.4em;
+    height: 50px;
+    padding-left: 7px;
+    padding-right: 15px;
+  }
+
+  .tab-menu-links {
+    padding: 15px;
   }
 
   .bottom-nav li {
@@ -442,7 +642,7 @@ main {
     grid-template-areas:
       "big big small-1"
       "big big small-2";
-    margin-top: 7.6em;
+    margin-top: 7.2em;
   }
 
   .content {
@@ -519,6 +719,47 @@ main {
     margin-top: 0.2em;
     width: 15em;
   }
+
+  .latest-deals-ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+  }
+
+  .bg-img {
+    width: 100%;
+    height: 170px;
+    padding-top: 75%;
+    position: relative;
+  }
+
+  .discount {
+    display: block;
+    width: 80px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .discount h5 {
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    position: absolute;
+    right: 0.1em;
+    top: 1.6em;
+    transform: rotateZ(45deg);
+  }
+
+  .social-links li {
+    margin: 0 8px;
+  }
+
+  .legal,
+  .footer-bottom {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -542,7 +783,7 @@ main {
       url("./assests/letters.jpg");
     background-position: 50% 50%;
     padding: 1em;
-    height: 376px;
+    height: 72vh;
   }
 
   .big-screen-display {
@@ -562,6 +803,12 @@ main {
     width: 86%;
   }
 
+  .content .category,
+  .content .title{
+    position: relative;
+    bottom: -2em;
+  }
+
   .content .title a {
     font-size: 56px;
     line-height: 56px;
@@ -569,7 +816,14 @@ main {
 
   .author {
     position: relative;
-    bottom: -0.5em;
+  }
+
+  .content .author {
+    bottom: -7em;
+  }
+
+  .small-2 .author {
+    bottom: -2em;
   }
 
   .latest-funding-heading {
@@ -587,14 +841,6 @@ main {
   .most-popular ul {
     grid-template-columns: repeat(3, 1fr);
   }
-
-  /* .most-popular-main-image {
-    height: 40vh;
-  }
-  
-  .most-popular-main-image-content {
-    top: 25vh;
-  } */
 }
 
 @media screen and (min-width: 1114px) {
@@ -604,7 +850,7 @@ main {
   }
 
   .conference-container {
-    min-width: 550px;
+    min-width: 570px;
   }
 
   .conference {
