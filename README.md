@@ -12,7 +12,7 @@ Building THE NEXT WEB with responsive design
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/OlawaleJoseph/design-teardown/539a5721ffa1f8dac2d1e5a93c0d7c652b07f2ce/index.html)
+[Live Demo Link](https://rawcdn.githack.com/somoye123/Responsive-Design/a4e53aac370344ff8187cdd3aeffa50558975b10/index.html)
 
 ## Authors
 
