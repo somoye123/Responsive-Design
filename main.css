@@ -117,8 +117,7 @@ main {
 
 .big-hero-banner {
   grid-area: big;
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
     url("./assests/letters.jpg");
   background-position: 50% 50%;
   padding: 1em;
@@ -127,8 +126,7 @@ main {
 .small-1 {
   grid-area: small-1;
   padding: 4em 1em 1em;
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
     url("./assests/bg-grad.jpg");
   background-size: cover;
   background-position: 50% 50%;
@@ -138,8 +136,7 @@ main {
   grid-area: small-2;
   padding: 1em;
   background-color: green;
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
     url("./assests/lyft.png");
   background-position: 50% 37%;
 }
@@ -292,8 +289,7 @@ main {
 
 .most-popular-main-image {
   height: 60vh;
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0.8)),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Google-Meet-796x417.jpg");
   background-position: 50% 50%;
   background-size: cover;
@@ -772,14 +768,34 @@ footer {
     display: none;
   }
 
+  .small-1,
+  .small-2 {
+    position: relative;
+    min-width: 32vw;
+  }
+
+  .article-container {
+    position: absolute;
+    bottom: 1em;
+  }
+
   .big-hero-banner {
-    grid-area: big;
-    background-image:
-      linear-gradient(161deg, rgba(255, 50, 14, 0.9), rgba(0, 0, 0, 0.8)),
+    min-width: 64vw;
+    position: relative;
+    background-image: linear-gradient(
+        161deg,
+        rgba(255, 50, 14, 0.9),
+        rgba(0, 0, 0, 0.8)
+      ),
       url("./assests/letters.jpg");
-    background-position: 50% 50%;
-    padding: 1em;
     height: 72vh;
+  }
+
+  .content {
+    position: absolute;
+    bottom: 1em;
+    z-index: 10;
+    max-width: 86%;
   }
 
   .big-screen-display {
@@ -794,23 +810,9 @@ footer {
     color: #fff;
   }
 
-  .content {
-    bottom: -7em;
-    width: 86%;
-  }
-
-  .article-container {
-    position: relative;
-    bottom: -5em;
-  }
-
   .content .title a {
     font-size: 56px;
     line-height: 56px;
-  }
-
-  .small-2 .author {
-    bottom: -2em;
   }
 
   .latest-funding-heading {
