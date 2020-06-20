@@ -2,7 +2,7 @@
 
 Building with responsive design
 
-![screenshot](./screenshot.png)
+![screenshot](./assests/screenshot)
 
 Building THE NEXT WEB with responsive design
 ## Built With
@@ -12,8 +12,7 @@ Building THE NEXT WEB with responsive design
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/somoye123/Responsive-Design/5b554a744499acb557ff66edab3951b4e7c4fdcb/index.html
-)
+[Live Demo Link](https://rawcdn.githack.com/somoye123/Responsive-Design/36ce427419af482c9e3095cf65c8297fcc5e0367/index.html)
 
 ## Authors
 
